@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		848790731DD1C58000801193 /* LeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 848790721DD1C58000801193 /* LeftTableViewCell.m */; };
+		848790761DD1C7D800801193 /* RightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 848790751DD1C7D800801193 /* RightTableViewCell.m */; };
 		84E4E7131DCB08BB00304424 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E4E7121DCB08BB00304424 /* main.m */; };
 		84E4E7161DCB08BB00304424 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E4E7151DCB08BB00304424 /* AppDelegate.m */; };
 		84E4E7191DCB08BB00304424 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E4E7181DCB08BB00304424 /* ViewController.m */; };
-		84E4E71C1DCB08BB00304424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E4E71A1DCB08BB00304424 /* Main.storyboard */; };
 		84E4E71E1DCB08BB00304424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E4E71D1DCB08BB00304424 /* Assets.xcassets */; };
 		84E4E7211DCB08BB00304424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E4E71F1DCB08BB00304424 /* LaunchScreen.storyboard */; };
 		84E4E72C1DCB08BC00304424 /* helloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E4E72B1DCB08BC00304424 /* helloTests.m */; };
@@ -35,13 +36,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		848790711DD1C58000801193 /* LeftTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableViewCell.h; sourceTree = "<group>"; };
+		848790721DD1C58000801193 /* LeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewCell.m; sourceTree = "<group>"; };
+		848790741DD1C7D800801193 /* RightTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightTableViewCell.h; sourceTree = "<group>"; };
+		848790751DD1C7D800801193 /* RightTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightTableViewCell.m; sourceTree = "<group>"; };
 		84E4E70E1DCB08BB00304424 /* hello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hello.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E4E7121DCB08BB00304424 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84E4E7141DCB08BB00304424 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84E4E7151DCB08BB00304424 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84E4E7171DCB08BB00304424 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		84E4E7181DCB08BB00304424 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		84E4E71B1DCB08BB00304424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84E4E71D1DCB08BB00304424 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E4E7201DCB08BB00304424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E4E7221DCB08BB00304424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,11 +105,14 @@
 		84E4E7101DCB08BB00304424 /* hello */ = {
 			isa = PBXGroup;
 			children = (
+				848790711DD1C58000801193 /* LeftTableViewCell.h */,
+				848790721DD1C58000801193 /* LeftTableViewCell.m */,
+				848790741DD1C7D800801193 /* RightTableViewCell.h */,
+				848790751DD1C7D800801193 /* RightTableViewCell.m */,
 				84E4E7141DCB08BB00304424 /* AppDelegate.h */,
 				84E4E7151DCB08BB00304424 /* AppDelegate.m */,
 				84E4E7171DCB08BB00304424 /* ViewController.h */,
 				84E4E7181DCB08BB00304424 /* ViewController.m */,
-				84E4E71A1DCB08BB00304424 /* Main.storyboard */,
 				84E4E71D1DCB08BB00304424 /* Assets.xcassets */,
 				84E4E71F1DCB08BB00304424 /* LaunchScreen.storyboard */,
 				84E4E7221DCB08BB00304424 /* Info.plist */,
@@ -248,7 +255,6 @@
 			files = (
 				84E4E7211DCB08BB00304424 /* LaunchScreen.storyboard in Resources */,
 				84E4E71E1DCB08BB00304424 /* Assets.xcassets in Resources */,
-				84E4E71C1DCB08BB00304424 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848790731DD1C58000801193 /* LeftTableViewCell.m in Sources */,
 				84E4E7191DCB08BB00304424 /* ViewController.m in Sources */,
+				848790761DD1C7D800801193 /* RightTableViewCell.m in Sources */,
 				84E4E7161DCB08BB00304424 /* AppDelegate.m in Sources */,
 				84E4E7131DCB08BB00304424 /* main.m in Sources */,
 			);
@@ -311,14 +319,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		84E4E71A1DCB08BB00304424 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84E4E71B1DCB08BB00304424 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84E4E71F1DCB08BB00304424 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -509,6 +509,7 @@
 				84E4E73D1DCB08BC00304424 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E4E73E1DCB08BC00304424 /* Build configuration list for PBXNativeTarget "helloTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +518,7 @@
 				84E4E7401DCB08BC00304424 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E4E7411DCB08BC00304424 /* Build configuration list for PBXNativeTarget "helloUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +527,7 @@
 				84E4E7431DCB08BC00304424 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
